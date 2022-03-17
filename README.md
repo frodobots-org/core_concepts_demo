@@ -2,18 +2,28 @@
 A repository designed to expose the reader to the core concepts of the Frodobots Network:
 1. Proof-Of-Drive
 2. Drive-To-Earn
-3. Kalman Filters & Sensor Fusion
 
 
 ## Proof-Of-Drive
+The core concept behind the Proof-Of-Drive Algorithm is that virtually driving a robot produces measurable physical motion, which can be used by an independent arbitor to verify that:
+i) The Robot was moved from point A to point B
+ii) The Robot was virtually driven by Virtual Driver D during this period. 
+
 Enter the the folder and run the demo. 
+
+I. Measurable Distance
+
+This script provides the most basic example of calculating the distance travelled by a robot during a virtual drive. Real Accelerometer data provided in the `sample_3df_data.csv` file is used to calculate the distance travelled by the robot.
 
 ```
 cd distance_measurement
 python distance_measurement.py
 ```
 
-This demo reads sample 3df IMU data from and returns the distance travelled by a hypthothetical Frodobot. 
+
+II. One-to-One Driver Connection
+
+### Kalman Filters & Sensor Fusion
 
 
 ## Drive-To-Earn
@@ -26,7 +36,7 @@ cd drive_to_earn
 python token_payments.py <mint_authority> <driver_pk>
 ```
 
-## Kalman Filters & Sensor Fusion
+
 
 
 
