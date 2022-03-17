@@ -30,9 +30,9 @@ In practice, sensor data is prone to noise interference and individual sensors t
 
 
 ## Drive-To-Earn
-On receiving proof that the robot has travelled a certain distance, and the necessary checks have been completed, the host account deposits FBTL tokens using the command line cli to the driver's wallet address received by the front-end. Drivers are paid in <b>FBT Litecoin (FBTL)</b>, at a rate of 1 FBTL every 50m driven. Currently, there is a supply of `1000 FBTL` held by the minting authority - to supply 50km worth of proven drives.\n
+On receiving proof that the robot has travelled a certain distance, and the necessary checks have been completed, the host account deposits FBTL tokens using the command line cli to the driver's wallet address received by the front-end. Drivers are paid in <b>FBT Litecoin (FBTL)</b>, at a rate of 1 FBTL every 50m driven. Currently, there is a supply of `1000 FBTL` held by the minting authority - to supply 50km worth of proven drives./n
 
-During a drive, the moving robot pings the remote server to make FBTL payments every 50ms, on successful verification of a virtually driven robot. 
+On the successful verification of a 50m stretch of drive, the Frodobot pings a remote server to deposit `1 FBTL` into the Virtual Driver's account.
 
 ```
 cd drive_to_earn
