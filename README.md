@@ -10,7 +10,7 @@ The core concept behind the Proof-Of-Drive Algorithm is that virtually driving a
 
 ### I. Measurable Distance
 
-This script provides the most basic example of calculating the distance travelled by a robot during a virtual drive. Real Accelerometer data provided in the `sample_3df_data.csv` file is used to calculate the distance travelled by the robot.
+This script provides the most basic example of calculating the distance travelled by a robot during a virtual drive. Real Accelerometer data provided in the `sample_sensor_recordings.csv` file is used to calculate the distance travelled by the robot.
 
 Run the demo.
 
